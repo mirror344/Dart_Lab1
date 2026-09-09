@@ -11,4 +11,8 @@ void main() {
   var score = 95;
   var language = 'Dart';
   print('$language: $score');
+
+  const String appName = 'Lab1';
+  final int startYear = 2026;
+  print('$appName started in $startYear');
 }
