@@ -15,4 +15,18 @@ void main() {
   const String appName = 'Lab1';
   final int startYear = 2026;
   print('$appName started in $startYear');
+
+  String? city = null;
+  if (city != null) {
+    print(
+      city.toUpperCase(),
+      );
+  }
+  
+  print(city?.toUpperCase());
+
+  String? nicname = null;
+  String display = nicname ?? 'Аноним';
+  print(display);
+
 }
