@@ -4,8 +4,7 @@ void main() {
   double height = 1.75;
   bool isStudent = true;
 
-  print(name);
-  print(age);
-  print(height);
-  print(isStudent);
+  print('Привет, $name! Тебе $age лет.');
+  print('Через 5 лет тебе будет ${age + 5} лет.');
+  print('Рост: $height м, студент: $isStudent');
 }
