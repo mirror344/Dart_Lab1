@@ -1,5 +1,11 @@
-import 'package:lab1_dart/lab1_dart.dart' as lab1_dart;
+void main() {
+  String name = 'Артём';
+  int age = 20;
+  double height = 1.75;
+  bool isStudent = true;
 
-void main(List<String> arguments) {
-  print('Hello world: ${lab1_dart.calculate()}!');
+  print(name);
+  print(age);
+  print(height);
+  print(isStudent);
 }
