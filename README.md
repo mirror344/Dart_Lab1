@@ -33,13 +33,13 @@
         также параметры можно указывать в любом порядке. Позиционный параметр 
         передается по порядку без указания имени
 
-        ```dart
-        void hello({required String name, required int age}) { 
-            print('$name, $age'); 
-        } 
+```dart
+void hello({required String name, required int age}) { 
+    print('$name, $age'); 
+} 
         
-        hello(name: 'Артём', age: 20);
+hello(name: 'Артём', age: 20);
 
-        ```
+```
 
 
